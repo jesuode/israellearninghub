@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>israellearninghub– Build Skills That Build Your Future</title>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="coursestyle.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="#" class="logo">
+    <div class="logo-icon">
+      <svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+    </div>
+    LearningHub
+  </a>
+  <ul class="nav-links">
+    <li><a href="index.html" >Home</a></li>
+    <li><a href="courses.html " class="active">Courses</a></li>
+    <li><a href="webinar.html">Webinars</a></li>
+    <li><a href="community.html">Community</a></li>
+
+    <li><a href="about.html">About Us</a></li>
+  </ul>
+  <div class="nav-actions">
+    <button class="btn-ghost">Sign up</button>
+    
+  </div>
+
+  <button class="menu-toggle" id="menuToggle">
+  <span></span>
+  <span></span>
+  <span></span>
+</button>
+</nav>
+
+
+<!-- HERO -->
+<section class="page-hero">
+  <div class="hero-badge">Discover Premium Learning</div>
+
+  <h1 class="page-title">
+    Explore Courses That<br>
+    Shape <span>Your Career</span>
+  </h1>
+
+  <p class="page-sub">
+    Browse expert-led courses across design, development, marketing,
+    business, and technology. Learn at your pace with practical,
+    real-world projects.
+  </p>
+
+  <div class="search-wrap">
+    <input
+      type="text"
+      class="search-input"
+      placeholder="Search for courses, skills, or instructors..."
+    >
+
+   
+    <button class="btn-primary">Search Courses</button>
+  </div>
+</section>
+
+<!-- CATEGORY BAR -->
+<div class="category-bar">
+  <div class="category-wrap">
+    <button class="category-btn active">All Courses</button>
+    <button class="category-btn">UI/UX Design</button>
+    <button class="category-btn">Web Development</button>
+    <button class="category-btn">Marketing</button>
+    <button class="category-btn">Mobile Apps</button>
+    <button class="category-btn">Business</button>
+    <button class="category-btn">Data Science</button>
+    <button class="category-btn">Branding</button>
+  </div>
+</div>
+
+<!-- COURSES -->
+<section class="courses-page">
+  <div class="courses-layout">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+
+      <div class="sidebar-block">
+        <div class="sidebar-title">Course Level</div>
+
+        <ul class="sidebar-list">
+          <li>
+            <label>
+              <span><input type="checkbox"> Beginner</span>
+              <span class="count">120</span>
+            </label>
+          </li>
+
+          <li>
+            <label>
+              <span><input type="checkbox"> Intermediate</span>
+              <span class="count">80</span>
+            </label>
+          </li>
+
+          <li>
+            <label>
+              <span><input type="checkbox"> Advanced</span>
+              <span class="count">45</span>
+            </label>
+          </li>
+        </ul>
+      </div>
+
+      <div class="sidebar-block">
+        <div class="sidebar-title">Pricing</div>
+
+        <ul class="sidebar-list">
+          <li>
+            <label>
+              <span><input type="checkbox"> Free Courses</span>
+              <span class="count">32</span>
+            </label>
+          </li>
+
+          <li>
+            <label>
+              <span><input type="checkbox"> Paid Courses</span>
+              <span class="count">213</span>
+            </label>
+          </li>
+        </ul>
+      </div>
+
+      <div class="sidebar-block">
+        <div class="sidebar-title">Price Range</div>
+
+        <input type="range" class="price-range">
+      </div>
+
+      <div class="sidebar-block">
+        <div class="sidebar-title">Duration</div>
+
+        <ul class="sidebar-list">
+          <li>
+            <label>
+              <span><input type="checkbox"> 0 - 5 Hours</span>
+            </label>
+          </li>
+
+          <li>
+            <label>
+              <span><input type="checkbox"> 5 - 15 Hours</span>
+            </label>
+          </li>
+
+          <li>
+            <label>
+              <span><input type="checkbox"> 15+ Hours</span>
+            </label>
+          </li>
+        </ul>
+      </div>
+
+    </aside>
+
+    <!-- MAIN -->
+    <div>
+
+      <div class="courses-top">
+        <div class="results">
+          Showing <strong>24</strong> courses available
+        </div>
+
+        <select class="sort-select">
+          <option>Sort by: Popular</option>
+          <option>Newest</option>
+          <option>Highest Rated</option>
+          <option>Price: Low to High</option>
+        </select>
+      </div>
+
+      <!-- GRID -->
+      <div class="courses-grid">
+
+        <!-- CARD -->
+        <div class="course-card">
+          <div class="course-thumb">
+            <div class="course-thumb-bg ct-1"><img src="images/thumbnail/uiux thumbnail.jfif" alt=""></div>
+            <span class="badge-tag tag-best">Bestseller</span>
+          </div>
+
+          <div class="course-body">
+            <div class="course-category">Design</div>
+
+            <h3 class="course-title">
+              UI/UX Design Masterclass
+            </h3>
+
+            <p class="course-desc">
+              Learn user-centered design principles, wireframing,
+              prototyping, and modern UI systems.
+            </p>
+
+            <div class="course-instructor">
+              <div class="instructor-avatar"><img src="images/persons/man 2.jfif" alt=""></div>
+
+              <div>
+                <div class="instructor-name">John Doe</div>
+                <div class="instructor-role">Senior Product Designer</div>
+              </div>
+            </div>
+
+            <div class="course-meta">
+              <span>⭐ 4.8</span>
+              <span>25 Lessons</span>
+              <span>12h 30m</span>
+            </div>
+
+            <div class="course-footer">
+              <div class="course-price">₦25,000</div>
+              <button class="course-btn">Enroll Now</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD -->
+        <div class="course-card">
+          <div class="course-thumb">
+            <div class="course-thumb-bg ct-2"><img src="images/thumbnail/web developmentThumbnail design.jfif" alt=""></div>
+            <span class="badge-tag tag-pop">Popular</span>
+            <button class="bookmark-btn"></button>
+          </div>
+
+          <div class="course-body">
+            <div class="course-category">Development</div>
+
+            <h3 class="course-title">
+              Fullstack Web Development
+            </h3>
+
+            <p class="course-desc">
+              Build responsive websites and modern web apps using
+              HTML, CSS, JavaScript, and React.
+            </p>
+
+            <div class="course-instructor">
+              <div class="instructor-avatar"><img src="images/persons/john doe 1.jfif" alt=""></div>
+
+              <div>
+                <div class="instructor-name">Jane Smith</div>
+                <div class="instructor-role">Frontend Engineer</div>
+              </div>
+            </div>
+
+            <div class="course-meta">
+              <span>⭐ 4.9</span>
+              <span>40 Lessons</span>
+              <span>18h 20m</span>
+            </div>
+
+            <div class="course-footer">
+              <div class="course-price">₦30,000</div>
+              <button class="course-btn">Enroll Now</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD -->
+        <div class="course-card">
+          <div class="course-thumb">
+            <div class="course-thumb-bg ct-3"><img src="images/thumbnail/YouTube digital marketing thumbnail template.jfif" alt=""></div>
+            <span class="badge-tag tag-new">New</span>
+          </div>
+
+          <div class="course-body">
+            <div class="course-category">Marketing</div>
+
+            <h3 class="course-title">
+              Digital Marketing Strategy
+            </h3>
+
+            <p class="course-desc">
+              Master social media growth, paid advertising,
+              branding, and conversion optimization.
+            </p>
+
+            <div class="course-instructor">
+              <div class="instructor-avatar"><img src="images/persons/man 3.jfif" alt=""></div>
+
+              <div>
+                <div class="instructor-name">Mike Johnson</div>
+                <div class="instructor-role">Marketing Consultant</div>
+              </div>
+            </div>
+
+            <div class="course-meta">
+              <span>⭐ 4.6</span>
+              <span>18 Lessons</span>
+              <span>8h 40m</span>
+            </div>
+
+            <div class="course-footer">
+              <div class="course-price">₦15,000</div>
+              <button class="course-btn">Enroll Now</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD -->
+        <div class="course-card">
+          <div class="course-thumb">
+            <div class="course-thumb-bg ct-4"><img src="images/thumbnail/YouTube thumbnail design.jfif" alt=""></div>
+           
+          </div>
+
+          <div class="course-body">
+            <div class="course-category">Branding</div>
+
+            <h3 class="course-title">
+              Branding & Identity Design
+            </h3>
+
+            <p class="course-desc">
+              Create memorable brand identities, logos,
+              visual systems, and marketing assets.
+            </p>
+
+            <div class="course-instructor">
+              <div class="instructor-avatar"><img src="images/persons/wman1.jfif" alt=""></div>
+
+              <div>
+                <div class="instructor-name">Sarah Williams</div>
+                <div class="instructor-role">Brand Strategist</div>
+              </div>
+            </div>
+
+            <div class="course-meta">
+              <span>⭐ 4.7</span>
+              <span>20 Lessons</span>
+              <span>10h 15m</span>
+            </div>
+
+            <div class="course-footer">
+              <div class="course-price">₦20,000</div>
+              <button class="course-btn">Enroll Now</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD -->
+        <div class="course-card">
+          <div class="course-thumb">
+            <div class="course-thumb-bg ct-5"><img src="images/thumbnail/mobile app dev.jfif" alt=""></div>
+            <span class="badge-tag tag-hot">Hot</span>
+          </div>
+
+          <div class="course-body">
+            <div class="course-category">Mobile Development</div>
+
+            <h3 class="course-title">
+              Mobile App Development
+            </h3>
+
+            <p class="course-desc">
+              Build Android and iOS applications using
+              Flutter and modern mobile workflows.
+            </p>
+
+            <div class="course-instructor">
+              <div class="instructor-avatar"><img src="images/persons/wman3.jfif" alt=""></div>
+
+              <div>
+                <div class="instructor-name">David Brown</div>
+                <div class="instructor-role">Mobile Engineer</div>
+              </div>
+            </div>
+
+            <div class="course-meta">
+              <span>⭐ 4.8</span>
+              <span>35 Lessons</span>
+              <span>16h 45m</span>
+            </div>
+
+            <div class="course-footer">
+              <div class="course-price">₦35,000</div>
+              <button class="course-btn">Enroll Now</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD -->
+        <div class="course-card">
+          <div class="course-thumb">
+            <div class="course-thumb-bg ct-6"><img src="images/thumbnail/Youtube Seo Fiverr Gig Thumbnail Design.jfif" alt=""></div>
+          </div>
+
+          <div class="course-body">
+            <div class="course-category">Business</div>
+
+            <h3 class="course-title">
+              Business Growth & Strategy
+            </h3>
+
+            <p class="course-desc">
+              Learn scaling strategies, sales systems,
+              customer acquisition, and leadership.
+            </p>
+
+            <div class="course-instructor">
+              <div class="instructor-avatar"><img src="images/persons/wman4.jfif" alt=""></div>
+
+              <div>
+                <div class="instructor-name">Emma Oliver</div>
+                <div class="instructor-role">Business Coach</div>
+              </div>
+            </div>
+
+            <div class="course-meta">
+              <span>⭐ 4.7</span>
+              <span>22 Lessons</span>
+              <span>9h 20m</span>
+            </div>
+
+            <div class="course-footer">
+              <div class="course-price">₦22,000</div>
+              <button class="course-btn">Enroll Now</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- PAGINATION -->
+      <div class="pagination">
+        <button class="page-btn active">1</button>
+        <button class="page-btn">2</button>
+        <button class="page-btn">3</button>
+        <button class="page-btn">→</button>
+      </div>
+
+      <!-- CTA -->
+      <div class="mini-cta">
+        <div>
+          <h2>Start Learning Today</h2>
+          <p>
+            Unlock premium learning experiences with expert-led
+            courses and real-world projects.
+          </p>
+        </div>
+
+        
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <div class="footer-logo">
+        <div class="logo-icon">
+          <svg viewBox="0 0 24 24" fill="white" width="18" height="18"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+        </div>
+        Learninghub
+      </div>
+      <p>Empowering learners worldwide with quality education, expert guidance, and lifetime access to knowledge.</p>
+      <div class="social-links">
+        <div class="social-btn">f</div>
+        <div class="social-btn">𝕏</div>
+        <div class="social-btn">in</div>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Explore</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="webinar.html">Webinars</a></li>
+        <li><a href="community.html">Community</a></li>
+        <li><a href="about.html">About Us</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Resources</h4>
+      <ul>
+        <li><a href="help.html">Help Center</a></li>
+                <li><a href="help.html#faq">FAQ</a></li>
+
+        
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Company</h4>
+      <ul>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="privacy.html">Privacy Policy</a></li>
+        <li><a href="privacy.html#terms">Terms of Service</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Newsletter</h4>
+      <p style="font-size:0.85rem;line-height:1.6;">Subscribe to get updates on new courses and exclusive offers.</p>
+      <div class="newsletter-input-wrap">
+        <input type="email" placeholder="Enter your email" />
+        <button class="btn-subscribe">Subscribe</button>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2026 IsraellearningHub. All rights reserved.</div>
+</footer>
+
+<script>
+  // Dot nav interactivity
+  document.querySelectorAll('.dot').forEach((dot, i) => {
+    dot.addEventListener('click', () => {
+      document.querySelectorAll('.dot').forEach(d => d.classList.remove('active'));
+      dot.classList.add('active');
+    });
+  });
+
+  // Scroll reveal
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.style.opacity = '1';
+        e.target.style.transform = 'translateY(0)';
+      }
+    });
+  }, { threshold: 0.1 });
+
+  document.querySelectorAll('.course-card, .testi-card, .feature-item, .stat-item').forEach(el => {
+    el.style.opacity = '0';
+    el.style.transform = 'translateY(20px)';
+    el.style.transition = 'opacity .5s ease, transform .5s ease';
+    observer.observe(el);
+  });
+
+
+
+  const menuToggle = document.getElementById("menuToggle");
+const navLinks = document.querySelector(".nav-links ");
+
+menuToggle.addEventListener("click", () => {
+  menuToggle.classList.toggle("active");
+  navLinks.classList.toggle("show");
+});
+</script>
+</body>
+</html>
